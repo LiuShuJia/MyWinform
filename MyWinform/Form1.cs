@@ -26,5 +26,10 @@ namespace MyWinform
         {
             MessageBox.Show("您好！");
         }
+
+        private void btnyyf_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("叶贻峰！");
+        }
     }
 }

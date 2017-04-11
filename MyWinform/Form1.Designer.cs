@@ -30,6 +30,7 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.btnShow = new System.Windows.Forms.Button();
+            this.btnyyf = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -52,11 +53,22 @@
             this.btnShow.UseVisualStyleBackColor = true;
             this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
+            // btnyyf
+            // 
+            this.btnyyf.Location = new System.Drawing.Point(58, 143);
+            this.btnyyf.Name = "btnyyf";
+            this.btnyyf.Size = new System.Drawing.Size(93, 25);
+            this.btnyyf.TabIndex = 2;
+            this.btnyyf.Text = "yyf";
+            this.btnyyf.UseVisualStyleBackColor = true;
+            this.btnyyf.Click += new System.EventHandler(this.btnyyf_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(429, 261);
+            this.Controls.Add(this.btnyyf);
             this.Controls.Add(this.btnShow);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
@@ -69,6 +81,7 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnShow;
+        private System.Windows.Forms.Button btnyyf;
     }
 }
 
