@@ -32,6 +32,7 @@
             this.btnShow = new System.Windows.Forms.Button();
             this.btnyyf = new System.Windows.Forms.Button();
             this.btnOpen = new System.Windows.Forms.Button();
+            this.btnTxg = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -74,11 +75,22 @@
             this.btnOpen.UseVisualStyleBackColor = true;
             this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
             // 
+            // btnTxg
+            // 
+            this.btnTxg.Location = new System.Drawing.Point(58, 58);
+            this.btnTxg.Name = "btnTxg";
+            this.btnTxg.Size = new System.Drawing.Size(75, 23);
+            this.btnTxg.TabIndex = 4;
+            this.btnTxg.Text = "txg";
+            this.btnTxg.UseVisualStyleBackColor = true;
+            this.btnTxg.Click += new System.EventHandler(this.btnTxg_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(429, 261);
+            this.Controls.Add(this.btnTxg);
             this.Controls.Add(this.btnOpen);
             this.Controls.Add(this.btnyyf);
             this.Controls.Add(this.btnShow);
@@ -95,6 +107,7 @@
         private System.Windows.Forms.Button btnShow;
         private System.Windows.Forms.Button btnyyf;
         private System.Windows.Forms.Button btnOpen;
+        private System.Windows.Forms.Button btnTxg;
     }
 }
 

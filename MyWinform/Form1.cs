@@ -36,5 +36,10 @@ namespace MyWinform
         {
             MessageBox.Show("I am Gay");
         }
+
+        private void btnTxg_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("厉害了");
+        }
     }
 }
