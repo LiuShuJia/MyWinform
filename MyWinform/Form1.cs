@@ -34,7 +34,7 @@ namespace MyWinform
 
         private void btnOpen_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("I am likongqiang");
+            MessageBox.Show("I am Gay");
         }
     }
 }
