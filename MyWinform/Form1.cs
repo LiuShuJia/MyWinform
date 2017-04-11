@@ -34,7 +34,12 @@ namespace MyWinform
 
         private void btnOpen_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("I am Gay");
+            MessageBox.Show("no zuo no die!!!");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
