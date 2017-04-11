@@ -31,5 +31,10 @@ namespace MyWinform
         {
             MessageBox.Show("叶贻峰！");
         }
+
+        private void btnOpen_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("I am likongqiang");
+        }
     }
 }
