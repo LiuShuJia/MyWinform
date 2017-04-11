@@ -41,5 +41,10 @@ namespace MyWinform
         {
 
         }
+
+        private void btnchen_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("陈");
+        }
     }
 }
