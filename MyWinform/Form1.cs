@@ -26,5 +26,10 @@ namespace MyWinform
         {
             MessageBox.Show("您好！");
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
