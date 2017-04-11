@@ -21,5 +21,10 @@ namespace MyWinform
         {
             MessageBox.Show("您按了一下按钮");
         }
+
+        private void btnShow_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("您好！");
+        }
     }
 }
