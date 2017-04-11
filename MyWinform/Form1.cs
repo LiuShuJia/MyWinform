@@ -29,7 +29,7 @@ namespace MyWinform
 
         private void btnyyf_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("叶贻峰！");
+            MessageBox.Show("！");
         }
 
         private void btnOpen_Click(object sender, EventArgs e)
